@@ -1,0 +1,36 @@
+
+.canvas {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-row {
+    flex:1; 
+    display:flex; 
+    flex-direction: row;
+}
+
+.grid-square {
+    flex: 1;
+    outline: 1px solid black; 
+    margin: 0;
+}
+
+.grid-square.hover {
+    background-color: black;
+}
+
+.container {
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.prompter {
+    height:200px;
+    width:20%;
+    font-size: 50px;
+    margin:2%;
+}
